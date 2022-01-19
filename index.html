@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <title>Kalkulator</title>
         <link rel="stylesheet" href="style.css">
-        <script src="script.js" defer></script>
+        <script src="script.js"></script>
     </head>
     <body>
         <div class="calculator">
@@ -14,12 +14,13 @@
                 <input type="number" id="liczba2"><br>
             </div>
             <!--BOTTOM-->
-            <button class="dzielenie">÷</button>
-            <button class="mnozenie">*</button>
-            <button class="dodawanie col">+</button>
-            <button class="odejmowanie col">-</button>
+            <button class="dzielenie" onclick="dzielenie()">÷</button>
+            <button class="mnozenie" onclick="mnozenie()">*</button>
+            <button class="potegowanie" onclick="potegowanie()">^</button>
+            <button class="dodawanie" onclick="dodawanie()">+</button>
+            <button class="odejmowanie col" onclick="odejmowanie()">-</button>
             <button class="equel col">=</button>
-            <div class="wynik"></div>
+            <button id="wynik">Wynik: </button>
         </div>
     </body>
 </html>

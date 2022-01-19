@@ -16,7 +16,7 @@ body{
     margin: 25px;
     display: grid;
     grid-template-columns: repeat(4, 100px);
-    grid-template-rows: repeat(3, 100px);
+    grid-template-rows: repeat(4, 100px);
     align-items: center;
     justify-content: center;
     min-height: 100vh;
@@ -49,6 +49,10 @@ button:hover, button:focus{
 
 .col{
     grid-column: span 2;
+}
+
+#wynik{
+    grid-column: span 4;
 }
 
 #liczba1, #liczba2{
