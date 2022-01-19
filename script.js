@@ -26,7 +26,7 @@ function dodawanie(){
  function dzielenie(){
     var liczba1 = parseInt(document.getElementById("liczba1").value);
     var liczba2 = parseInt(document.getElementById("liczba2").value);
-    if(liczba2==0){
+    if(liczba2==0 || liczba1==0){
       window.alert("Dzielenie przez 0");
     }
     else{
