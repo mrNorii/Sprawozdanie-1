@@ -30,3 +30,10 @@ function dodawanie(){
     document.getElementById("wynik").innerHTML=wynik;
  }
 
+//proofing of numbers
+function odejmowanie(){
+    var liczba1 = parseInt(document.getElementById("liczba1").value);
+    var liczba2 = parseInt(document.getElementById("liczba2").value);
+    var wynik = Math.pow(liczba1,liczba2);
+    document.getElementById("wynik").innerHTML=wynik;
+ }
