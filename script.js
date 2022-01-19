@@ -31,7 +31,7 @@ function dodawanie(){
     }
     else{
       var wynik = liczba1/liczba2;
-    document.getElementById("wynik").innerHTML=wynik;
+      document.getElementById("wynik").innerHTML=wynik;
     }
     
  }
