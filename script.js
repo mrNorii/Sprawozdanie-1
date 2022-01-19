@@ -15,7 +15,7 @@ function dodawanie(){
  }
 
  //multiplication of numbers
- function odejmowanie(){
+ function mnozenie(){
     var liczba1 = parseInt(document.getElementById("liczba1").value);
     var liczba2 = parseInt(document.getElementById("liczba2").value);
     var wynik = liczba1*liczba2;
@@ -23,7 +23,7 @@ function dodawanie(){
  }
 
  //dividing numbers
- function odejmowanie(){
+ function dzielenie(){
     var liczba1 = parseInt(document.getElementById("liczba1").value);
     var liczba2 = parseInt(document.getElementById("liczba2").value);
     var wynik = liczba1/liczba2;
@@ -31,7 +31,7 @@ function dodawanie(){
  }
 
 //proofing of numbers
-function odejmowanie(){
+function potegowanie(){
     var liczba1 = parseInt(document.getElementById("liczba1").value);
     var liczba2 = parseInt(document.getElementById("liczba2").value);
     var wynik = Math.pow(liczba1,liczba2);
