@@ -16,12 +16,13 @@ body{
     margin: 25px;
     display: grid;
     grid-template-columns: repeat(4, 100px);
-    grid-template-rows: repeat(4, 100px);
+    grid-template-rows: repeat(3, 100px);
     align-items: center;
     justify-content: center;
+    min-height: 100vh;
 }
 
-.result{
+.wprowadzanie{
     grid-column: 1 / -1;
     background: #4c4c4c;
     display: flex;
@@ -31,14 +32,6 @@ body{
     padding: 20px;
     word-wrap: break-word;
     word-break: break-all;
-}
-
-.lastaction{
-    font-size: 20px;
-}
-
-.curretaction{
-    font-size: 30px;
 }
 
 button{
@@ -56,4 +49,9 @@ button:hover, button:focus{
 
 .col{
     grid-column: span 2;
+}
+
+#liczba1, #liczba2{
+    color: black;
+    font-size: 28px;
 }
